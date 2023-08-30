@@ -1,0 +1,19 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  a {
+    color: aqua;
+  }
+}
+
+/* ボタンなどのコンポーネントに使用（baseより優先度高い） */
+@layer components {
+  .btn {
+    @apply p-2 text-xl bg-cyan-400 border;
+  }
+}
+
+@layer utilities {
+}

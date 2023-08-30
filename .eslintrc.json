@@ -1,0 +1,23 @@
+{
+  "extends": ["plugin:tailwindcss/recommended", "next/core-web-vitals"],
+  "plugins": ["tailwindcss"]
+  // "settings": {
+  //   "tailwindcss": {
+  //     "callees": ["classnames", "clsx", "ctl"],
+  //     "config": "tailwind.config.js",
+  //     "cssFiles": [
+  //       "**/*.css",
+  //       "!**/node_modules",
+  //       "!**/.*",
+  //       "!**/dist",
+  //       "!**/build",
+  //     ],
+  //     "cssFilesRefreshRate": 5000,
+  //     "removeDuplicates": true,
+  //     "skipClassAttribute": false,
+  //     "whitelist": [],
+  //     "tags": [],
+  //     "classRegex": "^class(Name)?$"
+  //   },
+  // }
+}
